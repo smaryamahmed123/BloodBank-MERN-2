@@ -1,4 +1,4 @@
-// models/Donor.js
+//DonorSchema.js
 
 import mongoose from'mongoose'
 
