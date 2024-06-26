@@ -58,7 +58,7 @@ export default function SignUp() {
         } else {
           Toast(response.data.message, "error");
         }
-        nevigate("/login")
+        nevigate("/profile")
       } catch (error) {
         Toast(error.message, "error");
       }
